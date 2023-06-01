@@ -6,7 +6,7 @@ IT FDN 100 A
 
 
 
-This week Video lecture, Book, and paper.
+#This week Video lecture, Book, and paper.
 
 This week we learned about pickling modules and exception handling.
 When we import the built-in function pickling, it allows us to execute a series of pre-made functions with simple commands, One example is that if we want to read binary code using pickling, we only need to apply the "rb" code and it will automatically read the specific file that is requested. The benefit of having a built-in function in Python is that it will simplify the code and make it much more readable.
@@ -15,12 +15,13 @@ One of the tools of the exception class is that you can catch specific errors us
 As we mentioned before, the "Exception" class is a built-in class in Python, and its main function is to hold information about errors. Python automatically creates an exception object when an error occurs, and the exception object automatically fills with information about the error.
 This week, we also learned about binary files. The difference between binary files and text files is the form of the data in them. Binary files are a more difficult way to read for humans but can be much easier and faster for computers. Binary format can obscure the file’s content and may reduce the file’s size. When we are dealing with small data, that might be irrelevant, but with a large amount of data, it can be easier to handle. 
 Another important topic this week is making our GitHub pages more professional, useful, and easy to read. One way to do this is with markdown commands that help format my documents. From what I notice, markdowns are very similar to html and use different characters and words to create specific tasks; for example, "#" indicates a header, two "#" indicate an introduction, and three "#" indicate a subtopic.
-Website reviews:
 
-Pickling:   https://www.geeksforgeeks.org/understanding-python-pickling-example/
+##Website reviews:
+
+###Pickling:   https://www.geeksforgeeks.org/understanding-python-pickling-example/
 This website explains in detail the main function of pickling, demonstrating how to save data on a file, how to initialize data to be stored in db, and also the advantages of using the pickling module, which are recursive objects, object sharing, and user-defined classes and their instances.
  
-Exception Handling in Python: https://www.geeksforgeeks.org/python-exception-handling/
+###Exception Handling in Python: https://www.geeksforgeeks.org/python-exception-handling/
 This website first explains the different types of exceptions in Python, such as SyntaxError, TypeError, IndexError, among others. Also explains the difference between syntax errors and exceptions. Also go through the Try-Exception statements and catching exceptions.
 This website makes a specific effort to explain the advantages of Exception handling, like improved program readability, simplified error handling, cleaner code, and easy debugging.
 
@@ -45,7 +46,7 @@ This website makes a specific effort to explain the advantages of Exception hand
 
 
 
-Assignment 07:
+##Assignment 07:
 
 The first part of this assignment is to import pickle. When we import pickle we can use a number of built-in functions that will convert regular data into binary data as well as convert binary data into regular data.
 After we do this, we proceed with the data that we will use in this assignment. We will create two variables that will collect data from the user, in this case the variables country and strName. The first will ask for the country of origin of the person, and the second will ask for the name of the person. We will also create a list that will hold both inputs, and we will put this data on a file that will convert this data to binary code. To do so, we need to create an objFile variable that will open and dump the data in the "PeopleData.dat" file.
