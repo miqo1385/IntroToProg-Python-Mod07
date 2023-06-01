@@ -33,6 +33,7 @@ After we do this, we proceed with the data that we will use in this assignment. 
 After we save the data, we can create more code that will present the current data in the file, very similar to what we did in the previous step, but instead of using the append function, we will use a reading function.
 Finally, we will print the object file data "objFileData".
 
+```
 import pickle
 #Pickling
 country = str(input("Country of Origin:  "))
@@ -56,11 +57,7 @@ objFile.close()
 
 
 print(objFileData)
-
-
-
-
-
+```
 
 
 And this is the result on the screen:
@@ -73,7 +70,7 @@ Listing 2
 The second part of the assignment is to create some structured error handling (Try-Except). To do that, I used our previous pickle assignment. The first and second error handling codes that I wrote for this section have to do with the specific data that we need to collect. We are looking for countries and names, so no numbers should ever be present as input. If the user puts a number as input, using the built-in function isnumeric() will detect the presence of a number and will send a Try-Except message saying that do not use numbers for the file.
 The third one will detect if blank spaces are detected as inputs and also show a message telling the user that is not allowed. To get that result, we will use the built-in function isspace().
 
-
+```
 try:
    country = str(input("Country of Origen:  "))
    if country.isnumeric():
@@ -85,11 +82,11 @@ except Exception as e:
    print("Built-In Python error info: ")
    print(e, e.__doc__, type(e), sep='\n')
 
+```
 
 
 
-
-
+```
 try:
    strName = str(input("Enter a Name: "))
    if strName.isnumeric():
@@ -98,10 +95,10 @@ except Exception as e:
    print("There was a non-specific error!")
    print("Built-In Python error info: ")
    print(e, e.__doc__, type(e), sep='\n')
+```
 
 
-
-
+```
 try:
    strName = str(input("Enter a Name: "))
    if strName.isspace():
@@ -110,7 +107,7 @@ except Exception as e:
    print("There was a non-specific error!")
    print("Built-In Python error info: ")
    print(e, e.__doc__, type(e), sep='\n')
-
+```
 
 
 
