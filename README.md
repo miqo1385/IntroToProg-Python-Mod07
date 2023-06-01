@@ -85,6 +85,7 @@ Listing 1
 And this is the result on the screen:
 
 ![alt text](https://github.com/miqo1385/IntroToProg-Python-Mod07/blob/main/Picture1.png "Listing 2")
+Listing 2
 
 
 
@@ -132,6 +133,6 @@ except Exception as e:
 Listing 3
 
 
-
+![alt text](https://github.com/miqo1385/IntroToProg-Python-Mod07/blob/main/Picture2.png "Listing 4")
 Listing 4 
 
