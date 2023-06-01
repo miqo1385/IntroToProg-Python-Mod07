@@ -84,8 +84,8 @@ Listing 1
 
 And this is the result on the screen:
 
-![alt text](web address "https://github.com/miqo1385/IntroToProg-Python-Mod07/blob/main/Picture1.png")
-Listing 2
+![alt text](https://github.com/miqo1385/IntroToProg-Python-Mod07/blob/main/Picture1.png "Listing 2")
+
 
 
 The second part of the assignment is to create some structured error handling (Try-Except). To do that, I used our previous pickle assignment. The first and second error handling codes that I wrote for this section have to do with the specific data that we need to collect. We are looking for countries and names, so no numbers should ever be present as input. If the user puts a number as input, using the built-in function isnumeric() will detect the presence of a number and will send a Try-Except message saying that do not use numbers for the file.
